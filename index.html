@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário com Validação</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Campos Numéricos</h1>
+        <h2>Insira</h2>
+    <form id="meuFormulario">
+        <label for="campoA"><b>Campo A:</b></label>
+        <input type="number" id="campoA" name="campoA" required>
+
+        <label for="campoB"><b>Campo B:</b></label>
+        <input type="number" id="campoB" name="campoB" required>
+
+        <button type="button" onclick="validarFormulario()">Enviar</button>
+    </form>
+
+    <div id="mensagem" class="message"></div>
+
+    <script src="main.js"></script>
+
+</body>
+</html>
